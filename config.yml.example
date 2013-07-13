@@ -1,0 +1,8 @@
+pixate_user: your-email@example.com # optional
+pixate_key: your-pixate-key # optional
+development:
+  testflight_api_token: your-testflight-api-token 
+  testflight_team_token: your-testflight-team-token
+  provisioning_profile: path-to-your-mobileprovision-file # for example ./development.mobileprovision
+release:
+  provisioning_profile: path-to-your-mobileprovision-file # for example ./distribution.mobileprovision
