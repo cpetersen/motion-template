@@ -13,6 +13,8 @@ Motion::Project::App.setup do |app|
   # Use `rake config' to see complete project settings.
   app.name = 'motion-template'
 
+  app.device_family = [:iphone, :ipad]
+
   app.pixate.user = config['pixate_user'] if config['pixate_user']
   app.pixate.key  = config['pixate_key'] if config['pixate_key']
   app.pixate.framework = 'vendor/PXEngine.framework'
