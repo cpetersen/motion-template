@@ -12,7 +12,7 @@ config = YAML.load_file("config.yml")
 Motion::Project::App.setup do |app|
   # Use `rake config' to see complete project settings.
   app.name = 'Template'
-
+  app.icons = ["Icon.png", "Icon-72.png", "Icon@2x.png", "Icon-72@2x.png"]
   app.device_family = [:iphone, :ipad]
 
   app.pixate.user = config['pixate_user'] if config['pixate_user']
