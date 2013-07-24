@@ -5,9 +5,9 @@ This application can act as a jumpstart for a certain class of iOS applications.
  * A universal app (iPhone and iPad)
  * A splash screen
  * A slide out menu
- * Pixate for custom styling using CSS
- * SASS for managing your CSS styles
- * TestFlight for easily dpeloying your app to beta users
+ * [Pixate](http://www.pixate.com) for custom styling using CSS
+ * [SASS](http://sass-lang.com) for managing your CSS styles
+ * [TestFlight](https://testflightapp.com) for easily dpeloying your app to beta users
 
 ## Get Started
 
@@ -75,3 +75,7 @@ That will create the following images:
  * Icon@2x.png
  * iTunesArtwork.png
  * iTunesArtwork@2x.png (your original)
+
+![Default Icon](resources/iTunesArtwork.png "Default Icon")
+
+![Default SplashScreen](resources/Default@2x.png "Default SplashScreen")
