@@ -76,6 +76,10 @@ That will create the following images:
  * iTunesArtwork.png
  * iTunesArtwork@2x.png (your original)
 
+### Default Icons
+
 ![Default Icon](resources/iTunesArtwork.png "Default Icon")
+
+### Default SplashScreen
 
 ![Default SplashScreen](resources/Default@2x.png "Default SplashScreen")
