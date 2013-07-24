@@ -1,5 +1,7 @@
 # Ruby Motion Template App
 
+# Warning, this is not complete, I don't recommend basing any application off of it yet
+
 This application can act as a jumpstart for a certain class of iOS applications. It includes:
 
  * A universal app (iPhone and iPad)
