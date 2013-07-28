@@ -4,6 +4,7 @@ require 'motion/project/template/ios'
 
 require 'rubygems'
 require 'yaml'
+require 'bubble-wrap'
 require 'motion-pixate'
 require 'motion-testflight'
 

@@ -35,7 +35,7 @@ class MenuViewController < UIViewController
     @screenShotImageView.setFrame([[0,-20],[self.view.frame.size.width, self.view.frame.size.height+20]])
     
     UIView.animateWithDuration(0.25, delay:0, options: UIViewAnimationCurveEaseInOut, animations:lambda do
-      @screenShotImageView.setFrame([[254,-20],[320,480]])
+      @screenShotImageView.setFrame([[254,-20],[Device.screen.width, Device.screen.height]])
     end, completion: lambda do |finished| end)
   end
  
