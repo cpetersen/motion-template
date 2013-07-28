@@ -7,7 +7,7 @@ class MenuViewController < UIViewController
     view.backgroundColor = UIColor.scrollViewTexturedBackgroundColor
     
     # tableView for select a page to display    
-    @tableView = UITableView.alloc.initWithFrame([[0,0],[254,460]])
+    @tableView = UITableView.alloc.initWithFrame([[0,0],[254,Device.screen.height]])
     @tableView.dataSource = @tableView.delegate = self
     view.addSubview(@tableView)
     
@@ -35,7 +35,7 @@ class MenuViewController < UIViewController
     @screenShotImageView.setFrame([[0,-20],[self.view.frame.size.width, self.view.frame.size.height+20]])
     
     UIView.animateWithDuration(0.25, delay:0, options: UIViewAnimationCurveEaseInOut, animations:lambda do
-      @screenShotImageView.setFrame([[254,-20],[Device.screen.width, Device.screen.height]])
+      @screenShotImageView.setFrame([[254,-20],[ Device.screen.width, Device.screen.height ]])
     end, completion: lambda do |finished| end)
   end
  
@@ -107,6 +107,4 @@ class MenuViewController < UIViewController
     slideThenHide
     tableView.deselectRowAtIndexPath(indexPath, animated:true)
   end
-
-  
 end
