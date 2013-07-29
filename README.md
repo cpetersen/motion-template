@@ -5,8 +5,8 @@
 This application can act as a jumpstart for a certain class of iOS applications. It includes:
 
  * A universal app (iPhone and iPad)
- * A splash screen
- * A slide out menu
+ * A splash screen (based on [this blog post](http://iconoclastlabs.com/cms/blog/posts/iphone-splash-screen-with-rubymotion))
+ * A slide out menu (based on [this blog post](https://github.com/dbottillo/SlideOutNavigationRubyMotion))
  * [Pixate](http://www.pixate.com) for custom styling using CSS
  * [SASS](http://sass-lang.com) for managing your CSS styles
  * [TestFlight](https://testflightapp.com) for easily dpeloying your app to beta users
